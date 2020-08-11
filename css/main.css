@@ -1794,7 +1794,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.8);
+  background-color: #51377f;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -3280,4 +3280,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .btn-download{
   background-color: #51377F;
+}
+
+a{
+  color: #51377F;
 }
