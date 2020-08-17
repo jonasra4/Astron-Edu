@@ -1882,7 +1882,9 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: none; } }
   @media (max-width: 991px) {
     .home-banner-area .fullscreen {
-      height: 700px !important; } }
+      height: 700px !important; } 
+     
+    }
 
 .banner-area {
   background: url(../img/banner.jpg) center;
@@ -3284,4 +3286,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 a{
   color: #51377F;
+}
+
+@media (max-width: 700px) 
+{
+  .background_mobile
+   {
+       background: #51377f;
+       color: white;
+   }
+   .imagem_desktop{
+       display: none;
+   }
+   .mobile-text-white{
+     color: white;
+   }
 }
